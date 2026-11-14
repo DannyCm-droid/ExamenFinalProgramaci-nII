@@ -20,6 +20,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "PrograIIExamelFinal necesita acceder a tus fotos para mostrar una imagen.",
+          "cameraPermission": "PrograIIExamelFinal necesita usar la cámara para tomar una fotografía.",
+          "microphonePermission": false
+        }
+      ]
+    ]
   }
 }
